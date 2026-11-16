@@ -1,0 +1,29 @@
+.reply-info-comment {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--gap) - 5px);
+  width: fit-content;
+  background: #ffffff;
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+}
+.reply-info-comment .reply-top-block-info-name-comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--gap);
+}
+.reply-info-comment .reply-top-block-info-name-comment .reply-name-comment {
+  font-size: 17px;
+  color: var(--accent);
+  font-weight: 700;
+}
+.reply-info-comment .reply-top-block-info-name-comment .reply-time-comment {
+  font-size: 13px;
+  color: var(--time);
+}
+.reply-info-comment .reply-bottom-block-info-content-comment .reply-text {
+  color: rgba(41, 57, 54, 0.95);
+  line-height: 1.45;
+  font-size: 15px;
+}

@@ -1,0 +1,38 @@
+//Ответный комментарий
+    .reply-info-comment{
+            display: flex;
+            flex-direction: column;
+            gap: calc(var(--gap) - 5px);
+            width: fit-content;
+            background: #ffffff;
+            padding: var(--card-padding);
+            border-radius: var(--card-border-radius);
+            // Имя и время ответного коммента
+            .reply-top-block-info-name-comment{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: var(--gap);
+                // Имя ответного коммента
+                .reply-name-comment{
+                    font-weight: 700;
+                    font-size: 17px;
+                    color: var(--accent);
+                    font-weight: 700;
+                }
+                // Время ответного коммента
+                .reply-time-comment{
+                    font-size: 13px;
+                    color: var(--time);
+                }
+            }
+            // Панель с кнопками ответного коммента
+            .reply-bottom-block-info-content-comment{
+                // button - кнопка
+                .reply-text{
+                    color: rgba(41,57,54,0.95);
+                    line-height: 1.45;
+                    font-size: 15px;
+                }
+            }
+        }
