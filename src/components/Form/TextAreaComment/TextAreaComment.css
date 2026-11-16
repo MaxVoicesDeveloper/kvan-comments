@@ -1,0 +1,11 @@
+.floating-area {
+  height: 250px;
+}
+.floating-area .area {
+  min-height: 100%;
+  resize: none;
+}
+.floating-area .area:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem #0b9b8c6e;
+}
