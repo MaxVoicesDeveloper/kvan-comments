@@ -1,0 +1,69 @@
+.reply-form {
+  margin-top: 15px;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reply-form-title {
+  font-weight: 600;
+  color: #305b57;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.reply-form .reply-input,
+.reply-form .reply-textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 14px;
+}
+.reply-form .reply-input:focus,
+.reply-form .reply-textarea:focus {
+  outline: none;
+  border-color: #305b57;
+  box-shadow: 0 0 5px rgba(48, 91, 87, 0.2);
+}
+.reply-form .reply-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+.reply-form .reply-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.reply-form .reply-submit,
+.reply-form .reply-cancel {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+}
+.reply-form .reply-submit {
+  background: #305b57;
+  color: white;
+}
+.reply-form .reply-submit:hover {
+  background: #254845;
+}
+.reply-form .reply-cancel {
+  background: #ddd;
+  color: #333;
+}
+.reply-form .reply-cancel:hover {
+  background: #ccc;
+}
+.error-text {
+  display: block;
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
